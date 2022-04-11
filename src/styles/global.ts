@@ -14,21 +14,16 @@ export const GLobalStyles = createGlobalStyle`
         height: 100%;
         font-size: 16px;
         -webkit-font-smoothing: antialiased;
-    }
-    body {
-        background: #fff;
+        background: #202020;
     }
     h1, h2,h3,h4,h5,h6, p, span, strong,button {
       -webkit-font-smoothing: antialiased;
       font-family: 'Saira Semi Condensed', sans-serif;
         text-size-adjust: none;
     }
-    @media(max-width: 800px) {
-      html: font-size: 15px;
+
+    p,ruby-span, strong {
+      font-size: 16px;
     }
-    @media(max-width: 500px) {
-      html {
-        font-size: 16px;
-      }
-    }
+    
 `;
